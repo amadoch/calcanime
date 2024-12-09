@@ -1,0 +1,28 @@
+{
+  "name": "calcanime",
+  "version": "0.0.6",
+  "main": "index.js",
+  "scripts": {
+    "debug": "node --watch server.js"
+  },
+  "keywords": [
+    "calculator",
+    "weeb",
+    "random"
+  ],
+  "author": "amadoch",
+  "license": "Apache-2.0",
+  "description": "A simple calculator with weeb-style",
+  "bugs": {
+    "url": "https://github.com/amadoch/calcanime/issues"
+  },
+  "type": "module",
+  "devDependencies": {
+    "eslint": "^9.16.0",
+    "gulp": "^5.0.0"
+  },
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "express": "^4.21.2"
+  }
+}
