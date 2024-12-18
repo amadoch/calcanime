@@ -35,11 +35,13 @@
     font-weight: 600;
 }
 
-.sep-horizontal {
-    width: 300px;
-}
-
-#calc-entry {
+.prompt-entry {
     font-size: larger;
     font-weight: 300;
+    font-style: normal;
+    color: sandybrown;
+}
+
+.sep-horizontal {
+    width: 300px;
 }

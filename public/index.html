@@ -18,31 +18,34 @@
         <div id="calculator">
             <header class="prompt-container">
                 <h2 class="prompt-result">0</h2>
-                <h3 id="calc-entry"></h3>
+                <h3 class="prompt-entry"></h3>
             </header>
             <hr class="sep-horizontal"></hr>
             <div class="calc-grid">
-                <div class="control-grid">
-                    <button id="clr" type="button">Clr</button>
-                    <button id="mdiv" type="button">Div</button>
-                    <button id="mul" type="button">Mult</button>
-                    <button id="sub" type="button">Sub</button>
-                    <button id="add" class="colm-3 row-2" type="button">Add</button>
-                    <button id="equal" class="colm-3 row-3" type="button">Equal</button>
-                </div>
-                <div class="button-grid row-2">
-                    <button type="button">7</button>
-                    <button type="button">8</button>
-                    <button type="button">9</button>
-                    <button type="button">4</button>
-                    <button type="button">5</button>
-                    <button type="button">6</button>
-                    <button type="button">1</button>
-                    <button type="button">2</button>
-                    <button type="button">3</button>
-                    <button class="colm-2" type="button">0</button>
-                    <button type="button">.</button>
-                </div>
+                <button id="clearPrompt" class="control-button" type="button">Clr</button>
+                <button id="percentage" class="control-button" type="button">Per</button>
+                <button id="parenthesis" class="control-button" type="button">Par</button>
+                <button id="division" class="control-button" type="button">Div</button>
+
+                <button class="number-button" type="button">7</button>
+                <button class="number-button" type="button">8</button>
+                <button class="number-button" type="button">9</button>
+                <button id="multiply" class="control-button" type="button">Mult</button>
+
+                <button class="number-button" type="button">4</button>
+                <button class="number-button" type="button">5</button>
+                <button class="number-button" type="button">6</button>
+                <button id="subtract" class="control-button" type="button">Sub</button>
+
+                <button class="number-button" type="button">1</button>
+                <button class="number-button" type="button">2</button>
+                <button class="number-button" type="button">3</button>
+                <button id="addition" class="control-button" type="button">Add</button>
+
+                <button id="polarity" class="control-button" type="button">+/-</button>
+                <button class="number-button" type="button">0</button>
+                <button class="number-button" type="button">.</button>
+                <button id="equal" class="control-button" type="button">Equal</button>
             </div>
         </div>
     </main>
