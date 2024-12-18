@@ -1,0 +1,25 @@
+.calc-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 50px);
+    grid-template-rows: repeat(5, 50px);
+    gap: 10px;
+    justify-content: center;
+}
+
+.control-button {
+    background-color: orange;
+    color: black;
+}
+
+.control-button:hover {
+    background-color: coral;
+}
+
+.number-button{
+    background-color: azure;
+    color: black;
+}
+
+.number-button:hover {
+    background-color: bisque;
+}

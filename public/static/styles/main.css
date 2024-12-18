@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+    font-family: Verdana, Helvetica, 'Arial Narrow Bold', sans-serif;
+}
+
+#title-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#title-app {
+    font-style: normal;
+    font-weight: 600;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+#title-desc {
+    font-style: oblique;
+    font-weight: 200;
+    font-size: small;
+    text-align: center;
+    text-overflow: clip;
+    text-transform: lowercase;
+}
+
+.prompt-container{
+   display: block;
+   text-align: right;
+}
+
+.prompt-result {
+    font-size: xx-large;
+    font-weight: 600;
+}
+
+.prompt-entry {
+    font-size: larger;
+    font-weight: 300;
+    font-style: normal;
+    color: sandybrown;
+}
+
+.sep-horizontal {
+    width: 300px;
+}

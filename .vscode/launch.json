@@ -5,19 +5,6 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "type": "msedge",
-            "request": "launch",
-            "name": "Launch Edge",
-            "url": "http://localhost:1337",
-            "webRoot": "${workspaceFolder}\\public",
-            "serverReadyAction":{
-                "action": "debugWithEdge",
-                "pattern": "Server is listening on port: (https?://\\S+|[0-9]+)",
-                "uriFormat": "http://localhost:%s",
-                "killOnServerStop": true
-            }
-        },
-        {
             "type": "node",
             "request": "launch",
             "name": "Launch Server",
@@ -28,14 +15,5 @@
             "console": "internalConsole",
             "internalConsoleOptions": "openOnSessionStart"
         },
-    ],
-    "compounds": [
-        {
-            "name": "Launch Server and Edge",
-            "configurations": [
-                "Launch Server",
-                "Launch Edge"
-            ]
-        }
     ]
 }
