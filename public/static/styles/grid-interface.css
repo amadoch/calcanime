@@ -7,11 +7,20 @@
 }
 
 .control-button {
-    background-color: orange;
+    background-color:  cadetblue;
     color: black;
 }
 
 .control-button:hover {
+    background-color: steelblue;
+}
+
+.operator-button {
+    background-color: orange;
+    color: black;
+}
+
+.operator-button:hover {
     background-color: coral;
 }
 
