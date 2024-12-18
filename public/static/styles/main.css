@@ -28,12 +28,15 @@
 .prompt-container{
    display: block;
    text-align: right;
-   padding: 0 2.7rem;
 }
 
 .prompt-result {
     font-size: xx-large;
     font-weight: 600;
+}
+
+.sep-horizontal {
+    width: 300px;
 }
 
 #calc-entry {

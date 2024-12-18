@@ -12,6 +12,7 @@ const app = express();
 
 app.get('/', (req, res) => {
     res.sendFile(`${__dirname}/public/index.html`);
+    status.serverHasResponse(res.url);
 });
 
 //Redirección a las paginas estáticas
